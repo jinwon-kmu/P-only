@@ -20,13 +20,13 @@
 #define _DUTY_MIN 800 //천장을 향함
 
 #define _SERVO_ANGLE_DIFF  70   // Replace with |D - E| degree
-#define _SERVO_SPEED       20   // servo speed 
+#define _SERVO_SPEED       22   // servo speed 
 
 // Target Distance
-#define _DIST_TARGET    155 // Center of the rail (unit: mm)
+#define _DIST_TARGET    157 // Center of the rail (unit: mm)
 
 // PID parameters
-#define _KP_POS 2.1   // error > 0 (0mm 쪽에 있을 때 → 300mm 방향으로 보낼 때)
+#define _KP_POS 2.11   // error > 0 (0mm 쪽에 있을 때 → 300mm 방향으로 보낼 때)
 #define _KP_NEG 1.7   // error < 0 (300mm 쪽에 있을 때 → 0mm 방향으로 당길 때)
 //#define _KP  0.8    // proportional gain
 //#define _KD 0.0   // derivative gain
